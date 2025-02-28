@@ -1,0 +1,107 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #bcf1ea;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #252525;
+    font-weight: bold;
+  }
+  
+  /* Bucket list section */
+  .bucket-list {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    color: #2a9ae6;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling the list */
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  li {
+    font-size: 1.2rem;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+   
+  
+  
+  .icon {
+    margin-right: 10px;
+    font-size: 1.5rem;
+  }
+  
+  /* Icons for completed items */
+  li span.icon {
+    color: #4CAF50; /* Green for completed tasks */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.3rem;
+    }
+  
+    li {
+      font-size: 1.1rem;
+    }
+  }
+  li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  footer {
+    cursor: pointer;
+    background-color: #fffcfc;
+    color: rgb(224, 91, 91);
+
+  }
