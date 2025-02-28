@@ -17,4 +17,5 @@ HTML, CSS, and additional styles for your personal bucket list website.
 - Nice hover effect on the list items
 - Good use of background colors and padding to create visual hierarchy
 ## Output 🎥
-![task 1 output](https://github.com/user-attachments/assets/32188ec1-4af8-4a47-b790-0533fd952093)
+![task 1 output](https://github.com/user-attachments/assets/c37fa88f-8cd9-4fca-8f4e-e5a27cd3ce9a)
+
